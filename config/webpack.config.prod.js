@@ -142,8 +142,7 @@ module.exports = {
             },
           },
           {
-            test: /\.(js|jsx|mjs)$/,
-            include: paths.appSrc,
+            test: /rluyconfig/,
             use: [
               {
                 loader: require.resolve('rluy/RluyLoader.js'),
