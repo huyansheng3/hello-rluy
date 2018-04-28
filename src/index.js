@@ -1,8 +1,5 @@
 import './index.css'
-import { App, connect } from 'rluy'
-
-console.log('2')
-console.log(connect)
+import { App } from 'rluy'
 
 App.router(require('./router')) //router文件引入
 

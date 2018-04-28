@@ -6,8 +6,8 @@ export default component => {
   return (
     <Router>
       <div>
-        <Route path="/" exact component={component['home.js']} />
-        <Route path="/admin" component={component['admin.js']} />
+        <Route path="/" exact component={component['home']} />
+        <Route path="/admin" component={component['admin']} />
       </div>
     </Router>
   )

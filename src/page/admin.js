@@ -1,10 +1,5 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import rluy from 'rluy'
-
-console.log(rluy)
-
-console.log('1')
+import { connect } from 'rluy'
 
 const RluyComponent = props => {
   return <div>{props.count}</div>
